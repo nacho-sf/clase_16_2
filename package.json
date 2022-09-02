@@ -1,0 +1,33 @@
+{
+  "name": "nacho_server",
+  "version": "1.0.0",
+  "description": "Servidor de pruebas bootcamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo Aquí van los test en el futuro",
+    "start": "node app.js",
+    "otratarea": "echo esto es otra tarea",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacho-sf/back_clase_11.git"
+  },
+  "author": "Nacho Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacho-sf/back_clase_11/issues"
+  },
+  "homepage": "https://github.com/nacho-sf/back_clase_11#readme",
+  "dependencies": {
+    "cowsay2": "^2.0.4",
+    "emoji-whale": "^1.3.0",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7",
+    "pg": "^8.8.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

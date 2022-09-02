@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title = "Hello Pug"
+        link(rel="stylesheet", href="")
+    body
+        include ./header.pug
+        main
+            h1 Estás en la #{section}
+            p.greetings#people Mi primera plantilla!
+            p #{msj}
+            script(scr="")
+        include ./footer.pug
