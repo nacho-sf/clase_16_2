@@ -8,6 +8,7 @@ const whale = require("cowsay2/cows/whale");
 // Rutas de productos
 const productsRoutes = require("./routes/productsRoutes");
 const productsApiRoutes = require("./routes/productsApiRoutes");
+const entriesApiRoutes = require("./routes/entriesApiRoutes");
 
 // Módulos propios
 const calc = require("./utils/calculator");
@@ -41,7 +42,8 @@ app.use("/products", productsRoutes);
 // Router de productos: API
 app.use("/api/products", productsApiRoutes);
 
-
+// Router de entries: API
+app.use("/api/entries", entriesApiRoutes);
 
 ///////////// RUTAS WEB: --> Devuelven vistas
 

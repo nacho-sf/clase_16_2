@@ -12,7 +12,7 @@ const pool = new Pool({
 ///////////  MÉTODOS:
 
 
-
+//---------> 28/07
 // GET
 const getEntriesByEmail = async (email) => {
     let client,result;
@@ -34,6 +34,7 @@ const getEntriesByEmail = async (email) => {
     return result
 }
 
+//---------> 28/07
 // GET
 const getAllEntries = async () => {
     let client,result;
@@ -60,6 +61,7 @@ const getAllEntries = async () => {
     return result
 }
 
+//---------> 28/07
 // CREATE
 const createEntry = async (entry) => {
     const {title,content,email,category} = entry;
@@ -181,9 +183,9 @@ const createAuthor = async (newAuthor) => {
 
 
 const entries = {
-    getEntriesByEmail,
-    getAllEntries,
-    createEntry,
+    getEntriesByEmail,//--> 28/07
+    getAllEntries,//------> 28/07
+    createEntry,//--------> 28/07
     //deleteEntry,
     //updateEntry,
     //getAllAuthors,
@@ -195,17 +197,23 @@ module.exports = entries;
 
 
 // Pruebas
+
+//---------> 28/07
 /*
     getEntriesByEmail("birja@thebridgeschool.es")
     .then(data=>console.log(data))
 */
 
 
-/* getAllEntries()
+//---------> 28/07
+
+/* 
+getAllEntries()
 .then(data=>console.log(data)) 
 */
 
 
+//---------> 28/07
 /*
 let newEntry = {
     title:"Nos gustan las tortillas",
